@@ -1,24 +1,29 @@
 {
-  "name": "thatsideproject",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "isomorphic-fetch": "^2.2.1",
-    "js-cookie": "^2.2.1",
-    "offline-plugin": "^5.0.7",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-hot-loader": "^4.12.18",
-    "react-redux": "^7.1.3",
-    "react-scripts": "3.2.0",
-    "redux": "^4.0.4",
-    "redux-thunk": "^2.3.0"
+  "name": "itmakesnoise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client/src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duonglong/thatsideproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duonglong/thatsideproject/issue"
+  },
+  "homepage": "https://github.com/duonglong/thatsideproject",
   "devDependencies": {
     "autoprefixer": "^7.1.3",
     "babel-core": "^6.26.0",
-    "babel-loader": "8.0.6",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
@@ -26,20 +31,46 @@
     "css-loader": "^3.2.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.18.2",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.2.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "camelize": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.1.4",
+    "lodash.merge": "^4.6.0",
+    "moment": "^2.18.1",
+    "normalizr": "^3.2.3",
+    "offline-plugin": "^5.0.7",
+    "path-to-regexp": "^2.0.0",
+    "prettier": "^1.19.1",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-hot-loader": "v3.0.0-beta.7",
+    "react-redux": "^5.0.6",
+    "react-scripts": "^3.2.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "soundcloud": "^3.2.1"
   },
   "browserslist": {
     "production": [
