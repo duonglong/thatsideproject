@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PlayList from '../components/PlayList';
 
-class PlayListContainer extends Component {
-  render() {
-    return (
-      <PlayList {...this.props} />
-    );
-  }
-}
+
+const PlayListContainer = props => <PlayList {...props} />;
+
 
 export default PlayListContainer;
