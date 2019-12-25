@@ -22,8 +22,8 @@ const propTypes = {
 };
 
 class Link extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.onClick = this.onClick.bind(this);
   }
 
